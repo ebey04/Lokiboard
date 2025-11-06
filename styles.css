@@ -7,11 +7,12 @@
 /* Mobile-first Design */
 body{
     display: grid;
+    
 }
 
 #sidebar{
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: auto auto auto;
 }
 
 #sidebar ul{
@@ -75,6 +76,25 @@ h3{
     border: 1px solid grey;
     margin: 0 auto;
     padding: 1rem;
+    
+}
+
+#right_bar{
+    display: grid;
+    gap: 1rem;
+}
+
+#announcements{
+    border: 1px solid grey;
+    text-align: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: .75rem;
+}
+
+hr{
+    max-width: 85%;
+    margin: .5rem auto;
     
 }
 
