@@ -8,7 +8,7 @@
     --main-color: #04AE56;
     --secondary-color:#F5A623;
     --background-color: rgb(255, 251, 251);
-
+    --shadow:rgb(193, 191, 191);
 }
 
 /* Mobile-first Design */
@@ -86,6 +86,10 @@ form label img {
     flex-shrink: 0;
 }
 
+input[type="search"]{
+    border-radius: 8px;
+    background-color: var(--shadow);
+}
 
 .mini-profile{
     display: none;
@@ -120,8 +124,8 @@ button{
     background-color: var(--main-color);
     color: white;
     font-weight: 600;
-    box-shadow: 0px 2px 4px rgb(193, 191, 191);
-    border: 1px solid rgb(193, 191, 191);
+    box-shadow: 0px 2px 4px var(--shadow);
+    border: 1px solid var(--shadow);
 }
 
 #workspace{
