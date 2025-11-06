@@ -54,7 +54,7 @@ main{
 
 header{
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
     margin: 1rem;
 }
 
@@ -74,8 +74,8 @@ form label {
 }
 
 form label img {
-  width: 1.5rem; 
-  height: 1.5rem;
+  width: 1.25rem; 
+  height: 1.25rem;
   flex-shrink: 0;
 }
 
