@@ -133,6 +133,12 @@ button{
     border: 1px solid var(--shadow);
 }
 
+button:hover{
+    background-color: var(--secondary-color);
+    color: white;
+    transform: translateY(-5px);
+}
+
 #workspace{
     background-color: #BCA8C2;
 }
