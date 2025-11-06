@@ -14,7 +14,7 @@
 /* Mobile-first Design */
 body{
     display: grid;
-    
+    font-family: sans-serif;
 }
 
 #sidebar img{
@@ -24,6 +24,7 @@ body{
 
 #sidebar h2{
     margin: auto 0;
+    font-family: "Cinzel";
 }
 
 .header-img{
@@ -36,6 +37,8 @@ body{
     display: grid;
     grid-template-rows: auto auto auto;
     margin: 1rem;
+    background-color: #55405B;
+    color: white;
 }
 
 #sidebar ul{
@@ -129,7 +132,7 @@ button{
 }
 
 #workspace{
-    background-color: #E2E8F0;
+    background-color: #BCA8C2;
 }
 
 #projects{
@@ -142,6 +145,7 @@ button{
 h3{
     margin: .5rem;
     font-size: 1.5rem;
+    font-family: "Cinzel";
 }
 
 .card{
