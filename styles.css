@@ -234,7 +234,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 ul{
@@ -257,7 +257,7 @@ ul li::after {
 #sidebar h2{
     margin: auto 0;
     font-family: "Cinzel";
-    font-size: 3rem;
+    font-size: 2rem;
     letter-spacing: .25em;
     margin-bottom: 2rem;
 }
@@ -308,20 +308,20 @@ main {
 #projects {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: none;  /* remove the 3 fixed rows */
-    grid-auto-rows: auto;      /* let rows grow as needed */
-    row-gap: 0.5rem;           /* tighten vertical space */
-    column-gap: 1.5rem;        /* keep nice horizontal spacing */
+    grid-template-rows: none;  
+    grid-auto-rows: auto;      
+    row-gap: 0.5rem;          
+    column-gap: 1.5rem;        
     margin-inline: 2rem;
     align-items: start;
-      align-self: start;
+    align-self: start;
 }
 
 
 #projects h3 {
   grid-column: 1 / -1;
   margin: 0 0 0.25rem 0;
-  align-self: start; /* makes sure it hugs top of the grid cell */
+  align-self: start; 
 }
 
 #right_bar h3,
@@ -363,7 +363,7 @@ main {
   /* Buttons and text scale adjustments */
   button {
     padding: 1rem 2rem;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 200;
   }
 
