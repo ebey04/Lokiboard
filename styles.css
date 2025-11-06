@@ -221,41 +221,109 @@ hr{
 /* Desktop Override */
 
 @media (min-width: 900px){
-body{
+
+  body {
     display: grid;
     grid-template-columns: 1fr 6fr;
-}
+    overflow-x: hidden; 
+  }
 
-#sidebar{
+  #sidebar {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0 auto;
+  }
+
+  ul li::after {
+    content: " ";
+    padding-right: .25rem;
 }
 
-.mini-profile{
+.command{
+    font-weight: 600;
+    margin-top: 10rem;
+}
+
+#sidebar h2{
+    margin: auto 0;
+    font-family: "Cinzel";
+    font-size: 3rem;
+    letter-spacing: .25em;
+    margin-bottom: 2rem;
+}
+
+  .mini-profile {
     display: flex;
     align-items: center;
     gap: .5rem;
-}
+  }
 
-main{
+  main {
     display: grid;
     grid-template-rows: 1fr 6fr;
-}
+  }
 
-#workspace{
+  #workspace {
     display: grid;
     grid-template-columns: 6fr 1fr;
-}
+  }
 
-#projects{
+  #projects {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-}
+    grid-template-rows: repeat(3, auto);
+    gap: 1.5rem;
+    margin-inline: 2rem;
+  }
 
-#right_bar{
+  #right_bar {
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    gap: 5rem;
-}
+    grid-template-rows: repeat(2, auto);
+    gap: 4rem;
+    margin-inline: 2rem;
+  }
+
+  /* === Image Resizing === */
+  /* General icon-scale elements */
+  #sidebar img,
+  #notifications,
+  #trending img {
+    max-width: min(6vw, 80px);
+    height: auto;
+  }
+
+  /* Header / profile image (Larger) */
+  .header-bottom img {
+    max-width: min(18vw, 220px);
+    height: auto;
+  }
+
+  /* Mini-profile icon (Smaller) */
+  .mini-profile img {
+    max-width: min(4vw, 60px);
+    height: auto;
+  }
+
+  /* Buttons and text scale adjustments */
+  button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
 }
