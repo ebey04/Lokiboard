@@ -78,6 +78,7 @@ header{
 form {
     display: flex;
     align-items: center;
+    flex: 1;
 }
 
 form label {
@@ -94,6 +95,7 @@ form label img {
 input[type="search"]{
     border-radius: 8px;
     background-color: var(--shadow);
+    width: 100%;
 }
 
 .mini-profile{
@@ -102,7 +104,7 @@ input[type="search"]{
 
 .header-top, .header-bottom{
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     margin-bottom: 1rem;
 }
 
@@ -112,7 +114,7 @@ input[type="search"]{
 }
 
 .header-bottom p{
-    margin: 3rem auto;
+    margin: 1rem auto;
     font-size: 1.5rem;
 }
 
@@ -278,6 +280,13 @@ input[type="search"]{
     align-items: center;
     gap: .5rem;
     font-weight: 600;
+}
+
+#greeting{
+    margin: 1rem;
+    white-space: pre-line;
+    line-height: 4rem;
+    font-size: 2rem;
 }
 
 main {
