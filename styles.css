@@ -65,9 +65,10 @@ button{
 }
 
 #projects{
-    margin: 1rem;
     display: grid;
     gap: 1rem;
+    margin-block: 1.5rem;
+    margin-inline: 1rem;
 }
 
 h3{
@@ -89,8 +90,7 @@ h3{
 #announcements, #trending{
     border: 1px solid grey;
     text-align: left;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-inline: 1rem;
     padding: .75rem;
 }
 
