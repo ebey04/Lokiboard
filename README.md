@@ -7,9 +7,8 @@ Inspired by modern dashboard layouts, this project features a clean, organized s
 ---
 
 ## 🚀 Live Demo
-🔗 [View it on GitHub Pages](https://yourusername.github.io/odin-dashboard)  
-*(replace with your actual link)*
 
+🔗 [View it on GitHub Pages](https://ebey04.github.io/Lokiboard/) 
 ---
 
 ## 🧱 Built With
