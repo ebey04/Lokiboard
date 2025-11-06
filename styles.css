@@ -84,7 +84,7 @@ h3{
     gap: 1rem;
 }
 
-#announcements{
+#announcements, #trending{
     border: 1px solid grey;
     text-align: left;
     margin-left: 1rem;
@@ -95,7 +95,13 @@ h3{
 hr{
     max-width: 85%;
     margin: .5rem auto;
-    
+}
+
+#trending{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
 }
 
 /* Desktop Override */
