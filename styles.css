@@ -10,6 +10,21 @@ body{
     
 }
 
+#sidebar img{
+    max-height: 10vh;
+    max-width: 10vw;
+}
+
+#sidebar h2{
+    margin: auto 0;
+}
+
+.header-img{
+    display: flex;
+    gap: .5rem;
+    margin-block: 1rem;
+}
+
 #sidebar{
     display: grid;
     grid-template-rows: auto auto auto;
