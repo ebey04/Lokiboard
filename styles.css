@@ -7,6 +7,7 @@
 :root{
     --main-color: #04AE56;
     --secondary-color:#F5A623;
+    --background-color: rgb(255, 251, 251);
 
 }
 
@@ -146,7 +147,7 @@ h3{
     border-left-color: var(--secondary-color);
     margin: 0 auto;
     padding: 1rem;
-    background-color: rgb(255, 251, 251);
+    background-color: var(--background-color);
 }
 
 #right_bar{
@@ -156,9 +157,11 @@ h3{
 
 #announcements, #trending{
     border: 1px solid grey;
+    border-radius: 8px;
     text-align: left;
     margin-inline: 1rem;
     padding: .75rem;
+    background-color: var(--background-color);
 }
 
 hr{
@@ -171,6 +174,11 @@ hr{
     flex-direction: column;
     gap: 1rem;
     margin-bottom: 2rem;
+}
+
+#trending img{
+    max-width: 10vw;
+    max-height: 10vh;
 }
 
 /* Desktop Override */
