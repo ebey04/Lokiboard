@@ -58,6 +58,28 @@ header{
     margin: 1rem;
 }
 
+#notifications{
+    max-width: 5vw;
+    max-height: 5vh;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+form label {
+  display: inline-flex;
+  align-items: center;
+}
+
+form label img {
+  width: 1.5rem; 
+  height: 1.5rem;
+  flex-shrink: 0;
+}
+
+
 .mini-profile{
     display: none;
 }
