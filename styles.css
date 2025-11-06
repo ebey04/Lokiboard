@@ -260,21 +260,35 @@ hr{
     margin-bottom: 2rem;
 }
 
-  .mini-profile {
+.header-top{
+    justify-content: space-between;
+}
+
+input[type="search"]{
+    max-width: 20rem;
+}
+
+.right_notification{
+    display: flex;
+    gap: 3rem;
+}
+
+.mini-profile {
     display: flex;
     align-items: center;
     gap: .5rem;
-  }
+    font-weight: 600;
+}
 
-  main {
+main {
     display: grid;
     grid-template-rows: 1fr 6fr;
-  }
+}
 
-  #workspace {
+#workspace {
     display: grid;
     grid-template-columns: 6fr 1fr;
-  }
+}
 
   #projects {
     display: grid;
